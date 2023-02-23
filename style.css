@@ -23,6 +23,9 @@ main {
 margin: 5px;
 }
 .menubottom {
+  display: flex;
+  justify-content: space-between;
+  
 
   height: 100px;
   background-color: lightblue;
@@ -55,9 +58,40 @@ main img {
 .card .nome {
   position: absolute;
   padding: 3px 3px;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0,0,0,.5);
   color: white;
   bottom: 2px;
   left: 2px;
   font-weight: 400;
+}
+
+/* FOTTER */
+
+li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.icona {
+  color: white;
+}
+
+.menubottom li {
+  color: white;
+}
+
+#meet {
+  color: red;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0,0,0,.5);
+  margin: 0;
+  padding-top: 20px;
+}
+
+footer {
+  padding: 20px;
 }
