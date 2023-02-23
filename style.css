@@ -19,7 +19,9 @@ main {
   margin: 0 auto;
 }
 
-
+.image {
+margin: 5px;
+}
 .menubottom {
 
   height: 100px;
@@ -39,15 +41,13 @@ main {
 .card {
   position: relative;
   display: inline-block;
-  width: 300px;
+  width: calc(100% / 7);
   cursor: pointer;
-  height: 200px;
-  background-color: aqua;
+  background-color: black;
 }
 
 main img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
 
   object-fit: cover;
 }
