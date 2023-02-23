@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+body {
+  background-color: black;
 }
 
 main {
@@ -9,11 +13,13 @@ main {
   background-color: beige;
   overflow: auto;
 }
-
-
-main p {
-  font-size: 35px;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+
 .menubottom {
 
   height: 100px;
@@ -22,5 +28,36 @@ main p {
 
 .menutop {
   height: 70px;
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  cursor: pointer;
+  height: 200px;
   background-color: aqua;
+}
+
+main img {
+  width: 300px;
+  height: 200px;
+
+  object-fit: cover;
+}
+
+.card .nome {
+  position: absolute;
+  padding: 3px 3px;
+  background-color: rgba(0,0,0,.3);
+  color: white;
+  bottom: 2px;
+  left: 2px;
+  font-weight: 400;
 }
