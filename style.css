@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: calc(100vh - 170px);
+  background-color: beige;
+  overflow: auto;
+}
+
+
+main p {
+  font-size: 35px;
+}
+.menubottom {
+
+  height: 100px;
+  background-color: lightblue;
+}
+
+.menutop {
+  height: 70px;
+  background-color: aqua;
+}
